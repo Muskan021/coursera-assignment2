@@ -2,17 +2,20 @@
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
+	font-family: serif;
 }
 .item{
 	margin:20px;
 	padding: 15px;
 	position: relative;
-	background-color: orange;
+	background-color: #1a1f82;
 	border: 2px solid black;
 }
 h1{
 	text-align: center;
 	margin:50px ;
+	font-size: 175%
+
 }
 h4{
 	position: absolute;
@@ -22,26 +25,32 @@ h4{
 	border-bottom: 2px solid black;
 	padding: 5px 90px;
 	color: black;
+	background-color: grey;
+	font-size: 125%;
 	
 }
-p{
-	padding: 30px;
+.item-1{
+	background-color: red;
 }
-@media(min-width: 992px){
+.item-2{
+	background-color: green;
+}
+.item-3{
+	background-color: grey;
+}
 .section-all{
 	float: left;
 	color: white;
 	}
+p{
+	padding: 30px;
+}
+@media(min-width: 992px){
 .section-lg-4{
 	width: 33.33%;
 }
 }
 @media(min-width: 768px) and (max-width: 991px){
-	.section-all{
-	float: left;
-	color: white;
-	
-	}
 .section-md-6{
 	width: 50%
 }
@@ -50,10 +59,7 @@ p{
 }
 }
 @media(max-width: 767px){
-.section-all{
-	float: left;
-	color: white;
-	}
+
 .section-lg-4{
     width: 100%;
     float: left;
